@@ -4,23 +4,49 @@
 
 ---  
 
-## 📄 Project Overview  
+## 📊 About the Dataset  
 
-This project aims to build a predictive model for **house prices in Mumbai**, considering features like **location, square footage, and amenities**. The model helps **buyers, sellers, and investors** make informed decisions by offering data-driven price estimates.  
+### 📍 Context  
+Mumbai, the **financial and cultural capital** of India, has one of the most dynamic and **expensive real estate markets** in the country. With a population exceeding **20 million**, housing demand varies significantly across **different localities, property types, and price ranges**.  
 
----  
+This dataset provides valuable insights into **residential property prices in Mumbai**, making it a great resource for **predictive modeling and investment analysis**.  
 
-## ❓ Why Is This Important?  
+### 🏠 Dataset Overview  
+The dataset contains **detailed information on residential properties**, including **sale prices, property types, locality, area, and construction status**. It enables **data-driven decision-making** for buyers, sellers, investors, and real estate analysts by predicting house prices based on relevant features.  
 
-📌 **Real Estate Pricing Challenges:** House prices fluctuate due to multiple factors like **demand, location trends, and economic conditions**. This model helps in making **data-backed decisions** instead of relying solely on market speculation.  
+### 🔑 Key Features in the Dataset  
 
-📌 **Informed Investment Decisions:** Investors can analyze **neighborhood-wise pricing trends**, reducing risks and maximizing returns.  
+| **Column Name** | **Description** |
+|---------------|----------------|
+| **bhk** | Number of bedrooms, hall, and kitchen (e.g., 2BHK, 3BHK). |
+| **type** | Type of property: `apartment`, `villa`, `independent house`, `studio apartment`. |
+| **locality** | The specific neighborhood or area where the house is located. |
+| **area** | Total area of the house in **square feet**. |
+| **price** | The selling price of the property. |
+| **price_unit** | Price representation unit: `L` (Lakh) or `Cr` (Crore). |
+| **region** | The broader region within Mumbai where the property is located. |
+| **status** | Construction status: `Ready to move` or `Under Construction`. |
+| **age** | Indicates whether the property is `New` or `Resale`. |
 
-📌 **Fair Pricing for Sellers & Buyers:** Ensures sellers list their properties at **competitive prices**, while buyers get **accurate price estimations** to negotiate better deals.  
+---
 
-📌 **Urban Planning & Policy Making:** City planners and government agencies can use this model to **analyze housing affordability and trends**, aiding in policy decisions.  
+## 🎯 Why is This Dataset Important?  
 
----  
+- 📊 Helps **buyers & sellers** make informed decisions.  
+- 💰 Enables **investors** to identify **profitable real estate opportunities**.  
+- 🏘️ Assists **real estate analysts** in tracking **market trends & price fluctuations**.  
+- 🤖 Supports **machine learning models** for **accurate house price predictions**.  
+
+---
+
+## 📌 Real-World Applications  
+
+- **🏠 House Price Prediction Models** → Estimate future property values.  
+- **📈 Real Estate Market Analysis** → Identify **high-demand** areas.  
+- **💰 Investment Strategy Planning** → Detect **profitable locations** for investment.  
+- **📊 Rental Price Estimation** → Predict rental values based on similar features.  
+
+---
 
 ## 🔑 Key Highlights  
 
@@ -29,34 +55,23 @@ This project aims to build a predictive model for **house prices in Mumbai**, co
 - 🏢 **Location Insights:** Identified **high-value neighborhoods** based on price per square foot.  
 - 📊 **Feature Importance:** Ranked **area** and **location** as the most influential factors in price determination.  
 
----  
-
-## 🏢 Where Is This Useful?  
-
-- 🏠 **Homebuyers & Sellers:** Helps determine a **fair market value** before buying or selling a house.  
-- 💰 **Real Estate Investors:** Supports **data-driven investment decisions** by identifying profitable locations.  
-- 📊 **Real Estate Agencies & Brokers:** Enhances pricing strategies to attract buyers.  
-- 🏛️ **Government & Policy Makers:** Aids in **urban development planning** and **affordable housing policies**.  
-
----  
+---
 
 ## 💻 Technologies Used  
 
 - **Programming:** Python  
-- **Libraries:** `pandas`, `numpy`, `scikit-learn`  
-- **Visualization:** `matplotlib`, `seaborn`  
-- **Machine Learning Techniques:** Regression models for price prediction  
+- **Libraries:** `pandas`, `numpy`, `scikit-learn`, `seaborn`, `matplotlib`  
+- **Machine Learning Models:** Linear Regression, Decision Tree, Random Forest  
+- **Feature Engineering:** Handling missing values, one-hot encoding, feature scaling  
+- **Deployment:** Flask API (optional)  
 
----  
+---
 
-## 📂 Repository Structure  
+## 🚀 Getting Started  
 
-├── data/ # Dataset files
-├── notebooks/ # Jupyter notebooks for EDA, feature engineering, and model training
-├── images/ # Visual assets (charts, screenshots, etc.)
-└── README.md # Project overview and setup instructions
+### 🔧 Installation Steps  
 
-
-🤝 Contributing
-Contributions are welcome! If you have suggestions or improvements, feel free to open an issue or submit a pull request.
-
+1️⃣ Clone the repository  
+```bash
+git clone https://github.com/21ds_Skyai/mumbai-house-price-prediction.git
+cd mumbai-house-price-prediction
